@@ -4,15 +4,17 @@ const Navbar = () => {
 
   
   return (
-    <nav className='bg-[#F6F6F6] h-[70px] flex justify-between items-center px-8'>
+    <nav className='bg-[url("/bg-main.jpg")]  bg-cover bg-no-repeat bg-center w-full h-full'>
+      <div className='h-[70px] flex justify-between items-center px-8'>
       <div className=''>my portfolio</div>
       <ul className='flex space-x-6'>
-        <li>Home</li>
+        <li className='text-white'>Home</li>
         <li>About</li>
         <li>Work</li>
         <li>Skils</li>
       </ul>
       <button>Contact</button>
+      </div>
     </nav>
   )
 }
