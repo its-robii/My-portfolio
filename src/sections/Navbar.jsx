@@ -59,7 +59,7 @@ const Navbar = () => {
           <nav className="pb-5">
             <Navigation />
           </nav>
-        </motion.div>   
+        </motion.div>
       )}
     </div>
   )
