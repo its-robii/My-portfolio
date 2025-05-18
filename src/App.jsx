@@ -1,12 +1,13 @@
-import NavbarPage from "./pages/NavbarPage";
+import Navbar from "./sections/Navbar";
+
 
 function App() {
 
 
   return (
-    <>
-      <NavbarPage />
-    </>
+    <div className="container mx-auto max-w-7xl">
+      <Navbar />
+    </div>
   );
 }
 
