@@ -1,27 +1,34 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 import { motion } from "motion/react";
 function Navigation() {
   return (
-    <ul className='nav-ul'>
-      <li className='nav-li'>
-        <a className='nav-link' href='#Home'>Home</a>
+    <ul className="nav-ul">
+      <li className="nav-li">
+        <a className="nav-link" href="#Home">
+          Home
+        </a>
       </li>
-       <li className='nav-li'>
-        <a className='nav-link' href='#About'>About</a>
+      <li className="nav-li">
+        <a className="nav-link" href="#About">
+          About
+        </a>
       </li>
-       <li className='nav-li'>
-        <a className='nav-link' href='#Work'>Work</a>
+      <li className="nav-li">
+        <a className="nav-link" href="#Work">
+          Work
+        </a>
       </li>
-       <li className='nav-li'>
-        <a className='nav-link' href='#Contact'>Contact</a>
+      <li className="nav-li">
+        <a className="nav-link" href="#Contact">
+          Contact
+        </a>
       </li>
     </ul>
-  )
+  );
 }
 
 const Navbar = () => {
-
-   const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className="fixed inset-x-0 z-20 w-full backdrop-blur-lg bg-primary/40">
@@ -31,7 +38,7 @@ const Navbar = () => {
             href="/"
             className="text-xl font-bold transition-colors text-neutral-400 hover:text-white"
           >
-           Robiul
+            Robiul
           </a>
           <button
             onClick={() => setIsOpen(!isOpen)}
@@ -62,7 +69,7 @@ const Navbar = () => {
         </motion.div>
       )}
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
