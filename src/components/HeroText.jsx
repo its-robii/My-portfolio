@@ -1,16 +1,15 @@
-import React from 'react'
+import React from "react";
 import { FlipWords } from "./FlipWords";
 import { motion } from "motion/react";
 const HeroText = () => {
-
-      const words = ["Elegant", "Robust", "Dynamic"];
+  const words = ["Elegant", "Robust", "Dynamic"];
   const variants = {
     hidden: { opacity: 0, x: -50 },
     visible: { opacity: 1, x: 0 },
   };
 
   return (
-     <div className="z-10 mt-20 text-center md:mt-40 md:text-left rounded-3xl bg-clip-text">
+    <div className="z-10 mt-20 text-center md:mt-40 md:text-left rounded-3xl bg-clip-text">
       {/* Desktop View */}
       <div className="flex-col hidden md:flex c-space">
         <motion.h1
@@ -33,8 +32,8 @@ const HeroText = () => {
             A Developer <br /> Passionate About Building
           </motion.p>
           <motion.div
-          drag
-            dragConstraints={{top :0 , left : 0, right :0, bottom :0}}
+            drag
+            dragConstraints={{ top: 0, left: 0, right: 0, bottom: 0 }}
             variants={variants}
             initial="hidden"
             animate="visible"
@@ -78,8 +77,8 @@ const HeroText = () => {
             Building
           </motion.p>
           <motion.div
-          drag
-            dragConstraints={{top :0 , left : 0, right :0, bottom :0}}
+            drag
+            dragConstraints={{ top: 0, left: 0, right: 0, bottom: 0 }}
             variants={variants}
             initial="hidden"
             animate="visible"
@@ -102,7 +101,7 @@ const HeroText = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default HeroText
+export default HeroText;
