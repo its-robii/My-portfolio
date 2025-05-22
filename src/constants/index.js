@@ -231,12 +231,12 @@ export const mySocials = [
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/md-robiul-650439344",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
+    href: "https://www.instagram.com/smokey_ricin_?igsh=YmtsN2I2bGlnYW10",
     icon: "/assets/socials/instagram.svg",
   },
 ];
