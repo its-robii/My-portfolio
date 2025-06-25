@@ -1,7 +1,7 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "Chatbird web app",
     description:
       "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
     subDescription: [
@@ -16,17 +16,17 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "C#",
+        name: "React",
         path: "/assets/logos/csharp.svg",
       },
       {
         id: 2,
-        name: ".Net",
+        name: "Node js",
         path: "/assets/logos/dotnet.svg",
       },
       {
         id: 3,
-        name: "Ef Core",
+        name: "express js",
         path: "/assets/logos/efcore.png",
       },
       {
@@ -38,7 +38,7 @@ export const myProjects = [
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "Brainweb",
     description:
       "A secure authentication and authorization system using Auth0 for seamless user management.",
     subDescription: [
@@ -53,19 +53,19 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
-      },
-      {
-        id: 2,
         name: "React",
         path: "/assets/logos/react.svg",
       },
       {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        id: 2,
+        name: "React router",
+        path: "/assets/logos/react.svg",
       },
+      // {
+      //   id: 3,
+      //   name: "SQLite",
+      //   path: "/assets/logos/sqlite.svg",
+      // },
       {
         id: 4,
         name: "TailwindCSS",
@@ -75,7 +75,7 @@ export const myProjects = [
   },
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "inovate cleaning service",
     description:
       "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
     subDescription: [
@@ -90,17 +90,17 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "Blazor",
+        name: "Html",
         path: "/assets/logos/blazor.svg",
       },
-      {
-        id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
-      },
+      // {
+      //   id: 2,
+      //   name: "Css",
+      //   path: "/assets/logos/dotnetcore.svg",
+      // },
       {
         id: 3,
-        name: "SQLite",
+        name: "bootstrap",
         path: "/assets/logos/sqlite.svg",
       },
       {
@@ -112,7 +112,7 @@ export const myProjects = [
   },
   {
     id: 4,
-    title: "C++ Game Engine",
+    title: "Short Url generator",
     description:
       "A lightweight C++ game engine designed for 2D and 3D game development.",
     subDescription: [
@@ -127,100 +127,100 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "C++",
+        name: "Node js",
         path: "/assets/logos/cplusplus.svg",
       },
       {
         id: 2,
-        name: "C#",
+        name: "express js",
         path: "/assets/logos/csharp.svg",
       },
       {
         id: 3,
-        name: "Git",
+        name: "CSS",
         path: "/assets/logos/git.svg",
       },
       {
         id: 4,
-        name: "Microsoft",
+        name: "ejs",
         path: "/assets/logos/microsoft.svg",
       },
     ],
   },
-  {
-    id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
-        id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
+  // {
+  //   id: 5,
+  //   title: "WordPress Custom Theme",
+  //   description:
+  //     "A fully customizable WordPress theme optimized for performance and SEO.",
+  //   subDescription: [
+  //     "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
+  //     "Integrated Tailwind CSS for modern styling and UI enhancements.",
+  //     "Optimized SEO and page speed using Vite.js for fast builds.",
+  //     "Implemented custom widgets and plugin compatibility for extended functionality.",
+  //   ],
+  //   href: "",
+  //   logo: "",
+  //   image: "/assets/projects/wordpress-theme.jpg",
+  //   tags: [
+  //     {
+  //       id: 1,
+  //       name: "WordPress",
+  //       path: "/assets/logos/wordpress.svg",
+  //     },
+  //     {
+  //       id: 2,
+  //       name: "HTML5",
+  //       path: "/assets/logos/html5.svg",
+  //     },
+  //     {
+  //       id: 3,
+  //       name: "CSS3",
+  //       path: "/assets/logos/css3.svg",
+  //     },
+  //     {
+  //       id: 4,
+  //       name: "Vite.js",
+  //       path: "/assets/logos/vitejs.svg",
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 6,
+  //   title: "Online Learning Platform",
+  //   description:
+  //     "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
+  //   subDescription: [
+  //     "Built using Blazor WebAssembly for a seamless SPA experience.",
+  //     "Implemented video streaming with Azure Media Services.",
+  //     "Added a quiz system with dynamic question generation and real-time grading.",
+  //     "Integrated Stripe API for secure payment processing.",
+  //   ],
+  //   href: "",
+  //   logo: "",
+  //   image: "/assets/projects/elearning.jpg",
+  //   tags: [
+  //     {
+  //       id: 1,
+  //       name: "Blazor",
+  //       path: "/assets/logos/blazor.svg",
+  //     },
+  //     {
+  //       id: 2,
+  //       name: "Azure",
+  //       path: "/assets/logos/azure.svg",
+  //     },
+  //     {
+  //       id: 3,
+  //       name: "Stripe",
+  //       path: "/assets/logos/stripe.svg",
+  //     },
+  //     {
+  //       id: 4,
+  //       name: "TailwindCSS",
+  //       path: "/assets/logos/tailwindcss.svg",
+  //     },
+  //   ],
+  // },
 ];
 
 export const mySocials = [
