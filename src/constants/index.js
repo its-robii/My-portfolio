@@ -3,16 +3,13 @@ export const myProjects = [
     id: 1,
     title: "Chatbird web app",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "Chatbird is a modern real-time chat web application designed for fast and seamless communication",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "It features a clean, responsive UI that adapts to both desktop and mobile devices. Built using React, Redux Toolkit, and Socket.io, it enables live messaging and state management across components. Tailwind CSS is used for consistent and efficient styling. The app includes features like user inboxes, dynamic chat lists, and smooth transitions, offering a user-centric chatting experience with real-time performance",
     ],
-    href: "",
+    href: "https://chatbird-28dg.onrender.com/",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/chatbird.png",
     tags: [
       {
         id: 1,
@@ -40,16 +37,13 @@ export const myProjects = [
     id: 2,
     title: "Brainweb",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+      "Brainwave is an AI-powered web application that offers users intelligent, chatbot-like assistance in a sleek and interactive UI",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      " Built using React, Tailwind CSS, and enhanced with parallax scrolling effects, it delivers a smooth, responsive, and interactive user experience. The project focuses on clean design, animated transitions, and intuitive layout across devices. While it doesn’t include backend AI logic, it effectively demonstrates front-end capabilities in building user-centric, futuristic web interfaces that mimic the feel of real AI tools",
     ],
-    href: "",
+    href: "https://brainwave-rouge-gamma.vercel.app/?fbclid=IwY2xjawLJ16lleHRuA2FlbQIxMABicmlkETFrTGdhSFBXbXlNZG1Wb1Q0AR7BZFh6sU3qwIhBnhTKu4kO-CVNQ0GAxio_zLiVtMugmySbFSGTjM7yI253Dw_aem_N",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/projects/brainwave.png",
     tags: [
       {
         id: 1,
@@ -77,16 +71,13 @@ export const myProjects = [
     id: 3,
     title: "inovate cleaning service",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "Innovation is a sleek and responsive front-end web project crafted using HTML, CSS, and JavaScript",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "showcases a modern landing page suitable for tech startups, digital agencies, or personal branding. The site features smooth scrolling, section transitions, hover effects, and a clean, minimalistic layout optimized for all screen sizes. This project highlights your skills in building static yet interactive web interfaces with professional design aesthetics and strong attention to user experience and responsive layout principles",
     ],
-    href: "",
+    href: "https://its-robii.github.io/innovation/?fbclid=IwY2xjawLJ17VleHRuA2FlbQIxMABicmlkETFrTGdhSFBXbXlNZG1Wb1Q0AR4o9tNichxtMiiKtUl5_f9FOVc_rDl6MrTXb_7MWNtZ",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/inovation.png",
     tags: [
       {
         id: 1,
@@ -114,16 +105,13 @@ export const myProjects = [
     id: 4,
     title: "Short Url generator",
     description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
+      "ShortUrl is a full-stack web application that allows users to shorten long URLs into compact, shareable links",
     subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
+      "Built with React on the frontend and Node.js, Express, and MongoDB on the backend, it offers a seamless user experience with real-time link generation and redirection. The app features form validation, link history, and a responsive UI. This project showcases your full-stack development skills, including RESTful API integration, database management, and building functional, production-ready web applications from scratch",
     ],
-    href: "",
+    href: "https://fullstack-shorturl.onrender.com/?fbclid=IwY2xjawLJ151leHRuA2FlbQIxMABicmlkETFrTGdhSFBXbXlNZG1Wb1Q0AR6ltikXv1pf3J9SfssQDBTfJ_LNHqWeZF7ZhNxPlWPPP22Ss7TdMNcTjzr5cg_aem_Jd5fpAE83LtlSj-E_X4wpg",
     logo: "",
-    image: "/assets/projects/game-engine.jpg",
+    image: "/assets/projects/shorturl.png",
     tags: [
       {
         id: 1,
@@ -243,39 +231,39 @@ export const mySocials = [
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "Web Development Learner",
+    job: "Self-Taught Journey",
+    date: "Early 2024 – Mid 2024",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Began web development journey while pursuing a Diploma in CSE.",
+      "Learned the fundamentals of HTML and CSS, building static web pages and understanding responsive design basics.",
+      "Explored layout techniques, form handling, and simple website structures through personal practice and online resources.",
     ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Frontend Developer (Trainee)",
+    job: "Creative IT Institute (Industrial Training)",
+    date: "Mid 2024 – Dec 2024",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Completed a structured industrial attachment program at Creative IT Institute.",
+      "Gained hands-on experience with HTML, CSS, JavaScript, Bootstrap, Tailwind CSS, and React.",
+      "Built several responsive frontend projects and UI components, improving both design and code quality.",
+      "Received a professional certificate upon successful completion of the training.",
     ],
   },
   {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
+    title: "Backend Developer (Trainee)",
+    job: "Creative IT Institute",
+    date: "2025 – Present",
     contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "Currently receiving professional backend development training at Creative IT Institute.",
+      "Learning server-side programming with Node.js, Express.js, and MongoDB.",
+      "Building RESTful APIs, managing databases, and implementing authentication and authorization.",
+      "Combining backend skills with frontend experience to develop full-stack applications.",
     ],
   },
 ];
+
 export const reviews = [
   {
     name: "Jack",
